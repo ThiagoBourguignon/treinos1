@@ -1,0 +1,30 @@
+div {
+    background-color: red;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+    /* content: widht(largura) & height (altura) */
+    width: 500px;
+    height: 500px;
+
+    /*padding: preenchimento*/
+    padding-top: 100px;
+    
+    /*border: borda*/
+    border: 10px dotted black;
+
+    /* margin: margem*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    /*mudar limites da caixa*/
+    box-sizing: border-box;
+}
+
+section {
+    background-color: yellowgreen;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}

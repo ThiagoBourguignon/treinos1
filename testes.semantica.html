@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Html semantico</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            margin: 0;
+           height: 100vh;
+            background-color: rgba(37, 78, 65, 0.514);
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "main aside"
+            "footer footer";
+            grid-template-rows: 60px 1fr 40px;
+        }
+        header{
+            grid-area: header;
+            background-color: blue;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        
+        }
+       
+        main {
+            grid-area: main;
+            background-color: beige;
+            text-align: justify;
+        }
+        aside {
+            grid-area: aside;
+            background-color: white;
+            text-align: justify;
+            padding-left: 10px;
+        }
+        footer{
+            grid-area: footer;
+            background-color: blueviolet;
+            text-align: center;
+            font-weight: bolder;
+            margin-bottom: -20px;
+        }
+        p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dividindo um site por partes</h1>
+    </header>
+    <main>
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum esse, optio provident ipsum beatae eos repellendus aliquid praesentium voluptatum officia hic illo, ea repudiandae iusto adipisci cupiditate commodi at ab.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, possimus! Eum vel velit sit praesentium accusamus, odit inventore ab natus veritatis repellendus ut. Cumque earum, adipisci doloribus expedita similique ipsam.</p>
+        </article>
+    </main>
+    <aside>
+        <section><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet et maiores incidunt aspernatur culpa quam autem, saepe alias, beatae magni quis omnis exercitationem ipsum magnam dignissimos deleniti animi doloremque? Eligendi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis ipsam fuga minima quisquam eligendi iure esse ipsum incidunt tenetur eos, harum nam quae cumque culpa a rem hic impedit ad.</p></section>
+    </aside>
+    <footer>
+        <p>Site desenvolvido por <a href="https://www.youtube.com/channel/UCXrjEJnbeMza423HTHJEt6Q" target="_blank">Thiago Bourguignon</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: blue;
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "main aside"
+            "footer footer";
+            grid-template-rows: 50px 1fr 40px;
+        }
+
+        header {
+            grid-area: header;
+            background-color:#151F30;
+        
+        }
+        main {
+            grid-area: main;
+            background-color: #103778;
+        }
+        aside{
+            grid-area: aside;
+            background-color: #0593A2;
+        } 
+        footer {
+            grid-area: footer;
+            background-color: #FF7A48;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       <h1>p testando</h1>
+    </header>
+    <main>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat perspiciatis consequuntur ea voluptatem alias, totam id? A, optio repellat quod quia dolore sequi ratione porro assumenda aut temporibus quasi.</article>
+    </main>
+    <aside>
+        <section> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate unde fuga nostrum culpa accusamus minus tempora ex, quasi nemo dolores repudiandae facilis eveniet aliquid nesciunt. Quos enim sint nobis hic!</section>
+    </aside>
+    <footer>
+      <p>Teste</p>
+    </footer>
+</body>
+</html>
