@@ -7,30 +7,75 @@
     <title>Treinando listas</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
         body {
-           background-image: linear-gradient(to right, #F20574, #BF04B3,#9904D9);
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            background-image: linear-gradient(to right, #F20574, #BF04B3,#9904D9);
+            display: grid;
+            grid-template-areas: 
+           "header header"
+           "main aside"
+           "footer footer";
+           grid-template-rows: 30px 1fr 40px;
         }
         
         ol {
             color: blue;
             font-family: 'Courier New', Courier, monospace;
         }
-        h1 {
+        header  {
+            grid-area: header;
             font-family: 'Tilt Prism', cursive;
             color: rgb(39, 39, 168);
-            background-image: linear-gradient(to right,#f2a20c9d,#f2770ca8);
+            background-image: linear-gradient(to right,#86724dea,#f2770ca8);
             text-align: center;
             border-radius: 5px 5px 5px 5px;
-             margin: auto;
+            margin: auto;
+            width: 960px;
+            line-height: 20px;
+        }
+      
+
+     main > ol {
+            background-color: white;
+            list-style-type: '\2714\00A0';
+            font-family: 'Shantell Sans', cursive;
+            font-size: 2em;
+            
+            height: 450.3px;
         }
 
-       ol {
-            list-style-type: " \U+FE0F";
+       aside > ul {
+            grid-area: aside;
+            background-color: wheat;
+            list-style-type: '\2714\00A0';
+            font-family: 'Shantell Sans', cursive;
+            font-size: 2em;
+            
+            
         }
+
+   
+   
+
+    footer {
+        grid-area: footer;
+        background-color: #9904D9;
+        text-align: center;
+        font-family: 'Shantell Sans', cursive;
+        
+    }
+
     </style>
 </head>
-<body>
+<body> 
+    <header>
     <h1>Afazeres do Dia</h1>
+   </header>
+    
+<main>
     <ol type="A">
         <li>
             acordar as 8:00
@@ -43,20 +88,30 @@
         <li>Estudar</li>
 
     </ol>
-    <h2>Compras Pc</h2>
-<ul type="circle">
-    <li>Gabinete</li>
-    <li>Monitor</li>
-    <li>Cpu cooler</li>
-    <li>Placa mãe</li>
-    <li>Processador</li>
-    <li>Memoria ram</li>
-    <li>SSD</li>
-    <li>Placa de vìdeo</li>
-    <li>Fonte de Energia</li>
-    <li>Kit Teclado,mouse,headset</li>
+</main>
     
-</ul>
+<aside>
+   
+    <ul>
+        <li>Gabinete</li>
+        <li>Monitor</li>
+        <li>Cpu cooler</li>
+        <li>Placa mãe</li>
+        <li>Processador</li>
+        <li>Memoria ram</li>
+        <li>SSD</li>
+        <li>Placa de vìdeo</li>
+        <li>Fonte de Energia</li>
+        <li>Kit Teclado,mouse,headset</li>
+    
+    </ul>
+</aside>
+
+    
+
+<footer>
+    <P>Lista desenvolvida por Thiago Bourguignon</P>
+</footer>
 
 </body>
 </html>
