@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando menus</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+      
+      body {
+            margin: 0;
+            height: 100vh;
+            background-image: linear-gradient(to right, #CEF09D,#1C646D,#1F0802);
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "main aside"
+            "footer footer";
+            grid-template-rows: 120px 800px 40px;
+
+        }
+        header {
+            grid-area: header;
+            background-color: blue;
+            color:white;
+            text-align: center;
+            border-radius: 5px 5px 5px 5px;
+        }
+
+        header > h1 {
+            font-family: 'Mukta', sans-serif;
+            font-style: italic;
+        }
+        header > h2 {
+            background-image: linear-gradient(to top,#38184c88,#a0cd606c);
+            border-radius: 0 0 5px 5px;
+        }
+
+        nav {
+            background-image: linear-gradient(to top,#38184c88,#a0cd606c);;
+            padding: 10px;
+            box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.199);
+
+        }
+        nav > a {
+            color: #1C646D;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition-duration: 0,5s;
+        }
+
+        nav > a:hover {
+            background-color: #1C646D;
+            color: #1F0802;
+        }
+        main { grid-area: main;
+            background-color: white;
+
+        }
+        aside {
+            grid-area: aside;
+            background-color: white;
+        }
+        footer {
+            grid-area: footer;
+            background-color: #1C646D;
+            text-align: center;
+            font-family: 'Mukta', sans-serif;
+            font-size: 1.2em;
+            font-weight: bolder;
+            color: #1F0802;
+        }
+        p {
+            text-align: center;
+            font-family: 'Mukta', sans-serif;
+            font-size: 1.2em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Testes de Menus</h1>
+        <h2>testando ferramentas</h2>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">VOLTAR</a>
+            <a href="#">AVANÇAR</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut architecto deleniti praesentium ipsum, aliquid dolores odio ipsam, qui fuga aspernatur corrupti consectetur inventore voluptate. Id error eum nostrum hic accusantium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officia tenetur vero suscipit dolore qui delectus sit quas, eligendi sint velit, a natus aliquam voluptate facere, beatae vitae ullam? Iste!</p>
+        </section>
+    </main>
+    <aside>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum adipisci provident, impedit, architecto inventore commodi soluta minima omnis tempore quasi? Magnam inventore natus soluta mollitia nemo. Quasi, eaque cum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores, veniam vel, porro itaque nemo sunt minus vero commodi asperiores incidunt neque atque a reiciendis? Non nesciunt minus libero id.</p>
+        </article>
+    </aside>
+    <footer>
+        <p>Site Desenvolvido por Thiago Bourguignon</p>
+    </footer>
+    
+</body>
+</html>
