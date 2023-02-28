@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    
+    background-image: linear-gradient(to right,#590A03,#D96F66,#0D0D0D);
+
+
+}
+
+  header {  
+    font-family: 'Gloock', serif;
+    text-align: center;
+    background-image: linear-gradient(to top,#f2f2f2a2,#0d0d0da8);        
+    padding: 20px;
+
+}
+
+header > h1 {
+    padding-bottom: 15px;
+}
+
+nav {
+    background-image: linear-gradient(to top,#f2f2f2a2,#0d0d0da8);
+    height: 40px;
+    line-height: 50px;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: #590A03;
+    font-weight: bold;
+    font-size: 0.9em;
+    }
+
+a:hover {
+    background-color: rgba(240, 248, 255, 0.596);
+    text-decoration: underline;
+}
+
+a:active {
+    color: #D96F66;
+}
+
+main {
+    background-color: white;
+    width:1000px;
+    height: 1300px;
+    text-align: center;
+    margin: auto;
+    
+}
+h4 {
+    padding: 10px;
+    font-size: 1.4em;
+
+}
+article > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 1;
+}
+h2 {
+    font-family: 'Gloock', serif;
+    padding: 10px;
+
+}
+h3 {
+    padding: 10px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    font-size: 1.2em;
+}
+div {
+    background-color: white;
+    margin: auto;
+}
+
+footer {
+    background-color: #590A03;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
