@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans&family=Tilt+Prism&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -15,19 +15,24 @@ body {
   header {  
     font-family: 'Gloock', serif;
     text-align: center;
-    background-image: linear-gradient(to top,#f2f2f2a2,#0d0d0da8);        
+    background-image: linear-gradient(to top,#d43333,#0d0d0d);        
     padding: 20px;
 
 }
 
 header > h1 {
     padding-bottom: 15px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 2.4em;
 }
 
 nav {
-    background-image: linear-gradient(to top,#f2f2f2a2,#0d0d0da8);
-    height: 40px;
-    line-height: 50px;
+    background-image: linear-gradient(to top,#fdbfbffa,#0d0d0da8);
+    height: 30px;
+    line-height: 35px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 0.7em;
+    font-style: italic;
     
 }
 
@@ -40,8 +45,11 @@ a {
     }
 
 a:hover {
-    background-color: rgba(240, 248, 255, 0.596);
+    background-color: rgb(89, 141, 187);
     text-decoration: underline;
+    border-radius: 5px 5px 5px 5px;
+    padding: 4px;
+    transition-duration: 0.5s;
 }
 
 a:active {
@@ -50,10 +58,11 @@ a:active {
 
 main {
     background-color: white;
-    width:1000px;
-    height: 1320px;
     text-align: center;
     margin: auto;
+    min-width: 280px;
+    max-width: 800px;
+
     
 }
 h4 {
