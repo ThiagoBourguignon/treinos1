@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: rgba(35, 35, 109, 0.541);
+
+
+}
+
+.minions {
+    width: 700px;
+    margin: 0 auto 72px;
+}
+img {
+    padding-bottom: 72px;
+}
+
+span {
+    color: coral;
+}
