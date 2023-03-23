@@ -7,6 +7,10 @@ body, input, select,textarea {
     font-family: 'Poppins', sans-serif;
     
 }
+fieldset {
+    border: none;
+   
+}
 
 body::before {
     content: '';
@@ -201,4 +205,27 @@ footer {
 footer .button {
 
     height: 56px;
+    background: #04d361;
+    border-radius: 8px;
+    border: 0;
+
+    font-family: 'Archivo';
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    
+
+    color: #ffffff;
+
+}
+
+footer .button:hover {
+
+    background: #1d693f;
+
+}
+
+input:invalid {
+    border: 1px solid red;
 }
