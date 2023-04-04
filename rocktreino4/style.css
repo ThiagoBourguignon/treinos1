@@ -20,7 +20,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    background:#121214 ;
+    background:#030305 ;
     z-index:-1;
 }
 
@@ -205,7 +205,7 @@ footer {
 footer .button {
 
     height: 56px;
-    background: #04d361;
+    background: #2d04d3;
     border-radius: 8px;
     border: 0;
 
