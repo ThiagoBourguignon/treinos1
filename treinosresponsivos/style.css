@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    width: 70.0rem;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    background: #c4c2c255;
+   
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 12.0rem;
+    
+    
+}
+
+
+
+.p-1 {
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    font-size:4.5rem ;
+    color: rgb(159, 151, 166);
+    margin-bottom: 2.2rem;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    color: rgb(132, 171, 171);
+    margin-bottom: 2.2rem;
+}
+
+p {
+    color: darkgrey;
+    font-size: 2.0rem;
+    margin-bottom: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(70, 96, 94, 0.681);
+    font-family: 'Staatliches', cursive;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+
+}
+
+a:hover{
+    color: rgba(134, 137, 137, 0.681);
+}
+
+
+ul li {
+  position: relative;
+  left: 10.0rem;
+  display: flex;
+  flex-direction:row;
+  gap: 2.0rem;
+  align-items: center;
+  
+  
+   
+}
+
+
+li {
+    padding: 3.0rem;
+    list-style-type: none;
+    font-family: 'Staatliches', cursive;
+    font-size: 1.8rem;
+}
+
+span {
+    font-size: 6.0rem;
+    color: rgba(84, 84, 214, 0.385);
+}
